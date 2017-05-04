@@ -1,0 +1,67 @@
+﻿<!doctype html><html><head><meta charset="utf-8"><style>
+      /* Separated from document_view.css to enable use in downloadable
+   export files. #cutAndCopyBucket is included for every rule because
+   we wwant cut/copied items to be formatted the same way as they
+   would be when exported. */
+
+.formattedExport,
+#cutAndCopyBucket {
+    font-family: 'Helvetica Neue', Arial, Sans-serif;
+    color: #333;
+    font-size: 13px;
+    line-height: 17px;
+    /* used to set white-space: pre-wrap here, but that messes up GMail's
+       formatting of the export output, so moving that to the name and
+       notes separately. */
+}
+
+.formattedExport .name, .formattedExport .note,
+#cutAndCopyBucket .name, #cutAndCopyBucket .note {
+    white-space: pre-wrap;
+}
+
+.formattedExport ul,
+#cutAndCopyBucket ul{
+    list-style: disc;
+    /* Needed to reset browser defaults. */
+    margin: 0;
+    padding: 0;
+}
+
+.formattedExport li,
+#cutAndCopyBucket li {
+    margin: 4px 0 4px 20px;
+    /* Needed to reset browser defaults. */
+    padding: 0;
+}
+
+.formattedExport > .name,
+#cutAndCopyBucket > .name {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.formattedExport > .note,
+#cutAndCopyBucket > .note {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.formattedExport > ul,
+#cutAndCopyBucket > ul {
+    margin-top: 15px;
+}
+
+.formattedExport .name.done,
+#cutAndCopyBucket .name.done {
+    text-decoration:line-through;
+    color:#999;
+}
+
+.formattedExport .note,
+#cutAndCopyBucket .note {
+    font-size: 12px;
+    color:#666;
+}
+
+      </style></head><body class="formattedExport"><ul><li><span class="name">Портфолио</span><ul><li><span class="name">Сайт</span><br /><span class="note">#React #PetProject #Typescript #Bootstrap #Gradient #Outsource</span><ul><li><span class="name">almazsr.name</span></li><li><span class="name">Структура</span><ul><li><span class="name">Фронтенд - NodeJS, TypeScript, React, Bootstrap</span></li><li><span class="name">Бэкенд - ?</span></li></ul></li></ul></li><li><span class="name">Список проектов</span><ul><li><span class="name">Xendapp [Full Backend + Full Frontend] (http://xendapp.com/)</span><br /><span class="note">#ASPNET_MVC4 #MSSQL #ADONET #PushSharp #jQuery</span></li><li><span class="name">Dataroom [Part Backend + Full Frontend] (http://login.dataroom.se/)</span><br /><span class="note">#ASPNET_MVC4 #MSSQL #EntityFramework #KendoUI</span></li><li><span class="name">Alphamed [Part Backend] (проект закрыт)</span><br /><span class="note">#ASPNET_MVC4 #MySQL #MSSQL #EntityFramework </span></li><li><span class="name">Azbuka Pro </span><br /><span class="note">#Xamarin #MVVM #ContentEncryption #MVVMCross #PDF #EPUB #MediaOverlay #HTML #HTTPMediaServer #Chat #AudioContent #AudioRecording #VideoContent #OAuth2 #REST #SQLite</span><ul><li><span class="name">[Full iOS] (https://itunes.apple.com/ru/app/%D0%B0%D0%B7%D0%B1%D1%83%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE/id1017335773?mt=8)</span><br /><span class="note">#NSURLSessionDownloadTask #PDFRendering #EPUBRendering</span></li><li><span class="name">[Part Android] (https://play.google.com/store/apps/details?id=com.ilexstudio.alphabitpro)</span><br /><span class="note">#Crosswalk #BindingJavaLibrary</span></li></ul></li><li><span class="name">A-Store Reader</span><br /><span class="note">#Xamarin #MVVM #ContentEncryption #MVVMCross #PDF #EPUB #MediaOverlay #HTML #HTTPMediaServer #AudioContent #AudioRecording #VideoContent #OAuth2 #REST #SQLite</span><ul><li><span class="name">[Full iOS] (https://itunes.apple.com/ru/app/a-store-reader/id1002878916?mt=8)</span><br /><span class="note">#NSURLSessionDownloadTask #PDFRendering #EPUBRendering</span></li><li><span class="name">[Part Android] (https://play.google.com/store/apps/details?id=com.aggregion.client&amp;hl=ru)</span><br /><span class="note">#Crosswalk #BindingJavaLibrary</span></li><li><span class="name">[Part MacOSX] (https://itunes.apple.com/ru/app/a-store-reader/id1041905062?mt=12)</span><br /><span class="note">#PDFRendering </span></li></ul></li><li><span class="name">Sputnik Auto</span><br /><span class="note">#Xamarin #MVVM #TCPSocket #MVVMCross #Chat #GPS #PushNotifications #WCF #Battery #SQLite #GoogleMaps #Design</span><ul><li><span class="name">[Full Android] (https://play.google.com/store/apps/details?id=com.sputnikauto.mobile&amp;hl=ru)</span><br /><span class="note">#BackgroundServce #CellInfo #UserGuide</span></li><li><span class="name">[Full iOS] (https://itunes.apple.com/us/app/sputnik-auto-mobile/id1189998321?l=ru&amp;ls=1&amp;mt=8)</span><br /><span class="note">#BackgroundLocation #CellInfo</span></li></ul></li><li><span class="name">Цифровая мозаика [Full iOS] (https://itunes.apple.com/ru/app/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BC%D0%BE%D0%B7%D0%B0%D0%B8%D0%BA%D0%B0/id1189851163?mt=8)</span><br /><span class="note">#Xamarin #MVVM #QRCodeScanning #Camera #MVVMCross #SQLite</span></li><li><span class="name">Буквограмма [Full Windows]</span><br /><span class="note">#WPF #dotNET #WindowsXPSupport #HTTPMediaServer #MVVM #ContentEncryption #VideoContent #UIDesign</span></li></ul></li><li><span class="name">Обновление резюме на HH</span></li></ul></li><li><span class="name">Идеи проектов</span><ul><li><span class="name">Сервис доставки каких-либо товаров из-за границы</span><ul><li><span class="name">Название</span></li><li><span class="name">Frontend #Sandbox</span></li><li><span class="name">Backend</span><ul><li><span class="name">#ASPNETCore #dotNETCore </span></li><li><span class="name">#Typescript</span></li></ul></li><li><span class="name"></span></li></ul></li><li><span class="name">Что-то связанное с психологией</span></li><li><span class="name">Простые игры на основе физики Unity</span></li><li><span class="name">Игра на тему исследования планет Unity </span></li><li><span class="name">Управление финансами FinDy</span></li><li><span class="name">Собственный трекер задач</span></li><li><span class="name">Аггрегатор парикмахерских</span></li><li><span class="name">Контент-проект для правил русского языка в особой форме</span></li><li><span class="name done">Счетчик приседаний</span></li></ul></li><li><span class="name">Электронное резидентство в Эстонии</span><ul><li><span class="name">Открытие банковского счета</span></li><li><span class="name">Регистрация юридического лица</span></li></ul></li><li><span class="name">Создание ИП</span></li><li><span class="name">Путь программиста</span><ul><li><span class="name">Кодекс</span><ul><li><span class="name">Правила написания программ на C#</span><ul><li><span class="name">Общие правила</span><ul><li><span class="name">Использование операторов</span><ul><li><span class="name">Скобки открывающая и закрывающая на новых строках</span><ul><li><span class="name">Исклчючения</span><ul><li><span class="name">if: Guard паттерн с вызовом throw Exception();</span></li><li><span class="name">if: return </span></li></ul></li></ul></li></ul></li></ul></li><li><span class="name">Ruleset для #ReSharper</span></li><li><span class="name">Статья</span></li></ul></li></ul></li><li><span class="name">Стрим программирования</span><br /><span class="note">#Livecoding #PetProject </span></li><li><span class="name">Поддержка OpenSource</span></li><li><span class="name">Запись видео</span><br /><span class="note">#Xamarin #Youtube</span></li><li><span class="name">Написать учебный план курса по программированию</span><br /><span class="note">#Xamarin </span></li><li><span class="name">Найти студента для менторства</span><br /><span class="note">#dotNET #CSharp</span></li><li><span class="name">Проверить возможности преподавания CSharp в КФУ</span><br /><span class="note">#dotNET #CSharp #Xamarin </span></li></ul></li><li><span class="name">Управление</span><ul><li><span class="name">Схема workflow в #Jira #Исследование</span><ul><li><span class="name">Обоснование</span><ul><li><span class="name">На листочке</span></li></ul></li><li><span class="name">Обертка для тасков и стэйтов</span></li><li><span class="name">Статья</span></li></ul></li></ul></li><li><span class="name">Идеи для изучения</span><ul><li><span class="name">Зависимость качества от времени и стоимости разработки</span><ul><li><span class="name">Q=f(T)*g(C)</span></li><li><span class="name">1/(1+exp(-t))</span></li><li><span class="name">Спринт</span><ul><li><span class="name">Каждый разработчик берет на себя сначала</span></li></ul></li></ul></li><li><span class="name">Пробки как течения</span></li><li><span class="name">Часто встречающиеся ошибки в русском языке</span><ul><li><span class="name">Усложнения</span></li><li><span class="name">Ненужные заимствования</span></li><li><span class="name">Нужен ли родной язык IT-шнику?</span></li></ul></li><li><span class="name">Струйное течение #Аспирантура</span></li></ul></li><li><span class="name">#Аспирантура </span><ul><li><span class="name">Численное моделирование струйного течения</span></li><li><span class="name">Отчет о научно-практической деятельности</span></li><li><span class="name">Подготовка к экзамену по специальности</span><ul><li><span class="name">Заявление</span></li></ul></li></ul></li><li><span class="name">Пробелы</span><ul><li><span class="name">Криптография</span></li><li><span class="name">Теория баз данных</span></li><li><span class="name">Алгоритмы</span></li><li><span class="name">#Xamarin</span><ul><li><span class="name">UI тесты</span></li><li><span class="name">Общение рантаймов в #Android</span></li></ul></li><li><span class="name">#dotNET</span><ul><li><span class="name">Value type vs Reference type</span></li><li><span class="name">TPL (Task Parallel Library)</span></li></ul></li><li><span class="name">#dotNETCore</span></li><li><span class="name">Юнит-тесты с #Moq</span></li><li><span class="name">#React + #Redux</span></li><li><span class="name">#Vue</span></li></ul></li><li><span class="name">Отдых</span><ul><li><span class="name">Закрытый каток</span><ul><li><span class="name">Зилант, Мавлютова 17б</span></li><li><span class="name">Не брать телефон и лишние деньги</span></li><li><span class="name">Одеться соответствующе</span></li></ul></li><li><span class="name">Квест "Выйти из комнаты"</span><ul><li><span class="name">С Тимуром и Дианой</span></li></ul></li></ul></li><li><span class="name">Знания</span><ul><li><span class="name">Паттерн Repository</span><br /><span class="note">http://blog.byndyu.ru/2011/01/domain-driven-design-repository.html</span><ul><li><span class="name">Хорошая статья, но устаревшая и есть спорные моменты.</span></li></ul></li><li><span class="name">Redux</span><br /><span class="note">https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367</span><ul><li><span class="name">Можно и без него, если не нужна history, в этом есть свои плюсы.</span></li></ul></li></ul></li><li><span class="name">Параметры балкона</span><ul><li><span class="name">Площадь пола = 7.5</span></li><li><span class="name">Высота поднятия пола = 0.1</span></li><li><span class="name">Высота потолков = 2.65</span></li><li><span class="name">Ширина боковой поверхности = 1.3</span></li><li><span class="name">Оконный проем на кухне = 1.48 x 0.65</span></li><li><span class="name">Балконный проем на кухне = 2.16 x 0.81</span></li><li><span class="name">Оконный проем в зале = 1.48 x 1.6</span></li><li><span class="name">Общая длина балкона = 5.77</span></li><li><span class="name">Боковая поверхность = 2.65 x 1.3</span></li><li><span class="name">Основная поверхность за вычетом оконных проемов = 5.77 x 2.65 - (1.48 x 0.65) - (2.16 x 0.81) - (1.48 x 1.6) = 10.21</span></li><li><span class="name">Глубина оконных проемов = 0.15</span></li><li><span class="name">Площадь пола и потолка = 2 x 7.5 = 15</span></li><li><span class="name">Общая площадь стен = 2 x 2.65 x 1.3 + 10.21 = 17.1</span></li><li><span class="name">Общая площадь поверхности = 2 x 2.65 x 1.3 + 2 x 7.5 + 10.21 = 32.1</span></li></ul></li></ul></body></html>

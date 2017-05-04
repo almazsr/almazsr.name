@@ -1,0 +1,3 @@
+interface IPortfolio {
+    projects: IProject[];
+}
