@@ -1,6 +1,8 @@
+import IProjectPart from './projectPart';
+
 interface IProject {
     title: string;
-    desctiption: string;
+    description: string;
     parts: IProjectPart[];
 }
 

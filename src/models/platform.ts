@@ -7,3 +7,5 @@ enum Platform {
     Frontend = 5,
     Backend = 6
 }
+
+export default Platform;

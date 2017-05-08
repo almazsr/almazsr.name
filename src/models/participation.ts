@@ -3,3 +3,5 @@ enum Participation {
     Part = 1,
     Full = 2
 }
+
+export default Participation;

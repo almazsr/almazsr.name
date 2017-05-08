@@ -1,15 +1,11 @@
 import * as React from 'react';
-import { Carousel } from '../../../node_modules/react-bootstrap';
-import Project from '../project';
-
-interface IPortfolio {
-    
-}
+import IPortfolio from '../../models/portfolio';
+import ProjectComponent from '../project';
 
 const PortfolioComponent = (model: IPortfolio) => {
     return (
         <div className="card container">
-            
+            {model.projects.map(p => <ProjectComponent {...p} />)}
         </div>
     );
 };
