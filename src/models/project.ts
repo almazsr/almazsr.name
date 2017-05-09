@@ -1,13 +1,10 @@
+import IProjectPart from './projectPart';
+
 interface IProject {
-    id: string;
     title: string;
-    description: string;
-    uri: string;
     logo: string;
-    screenshots: string[];
-    technologies: string[];
-    projects: IProject[];
-    platform: string;
+    description: string;
+    parts: IProjectPart[];
 }
 
 export default IProject;

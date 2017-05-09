@@ -1,12 +1,13 @@
 import * as React from 'react';
 import IPortfolio from '../../models/portfolio';
 import ProjectComponent from '../project';
+import { Grid } from '../../../node_modules/react-bootstrap';
 
 const PortfolioComponent = (model: IPortfolio) => {
     return (
-        <div className="card container">
+        <Grid>
             {model.projects.map(p => <ProjectComponent {...p} />)}
-        </div>
+        </Grid>
     );
 };
 
