@@ -1,4 +1,4 @@
-interface IProject {
+interface IWebProject {
     id: string;
     title: string;
     description: string;
@@ -10,4 +10,4 @@ interface IProject {
     platform: string;
 }
 
-export default IProject;
+export default IWebProject;

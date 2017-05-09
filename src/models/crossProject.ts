@@ -1,8 +1,7 @@
-interface IProject {
+interface ICrossProject {
     id: string;
     title: string;
     description: string;
-    uri: string;
     logo: string;
     screenshots: string[];
     technologies: string[];
@@ -10,4 +9,4 @@ interface IProject {
     platform: string;
 }
 
-export default IProject;
+export default ICrossProject;
