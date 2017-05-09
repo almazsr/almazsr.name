@@ -3,7 +3,6 @@ import Platform from './platform';
 
 interface IProjectPart {
     technologies: string[];
-    participation: Participation;
     screenshots: string[];
     uri: string;
     platforms: Platform[];
