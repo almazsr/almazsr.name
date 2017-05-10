@@ -1,7 +1,7 @@
 import * as React from 'react';
-import ILogo from '../../models/logo';
+import IImage from '../../models/image';
 
-const ProjectLogoComponent = (model: ILogo) => {
+const ProjectLogoComponent = (model: IImage) => {
     var logo = require(`./images/${model.path}`);
     return (
         <img width={128} height={128} src={logo} alt="Image"/>

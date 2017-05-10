@@ -1,7 +1,7 @@
 interface IProjectPart {
     platform: string;
     uri?: string;
-    screenshots?: string[];
+    screenshots: string[];
     technologies: string[];
 }
 

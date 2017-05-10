@@ -10,6 +10,7 @@ const App = ({}) => {
       description: 'Sonit Solutions virtuella datarum gör det möjligt för ert företag att dela känslig information mellan flera parter på ett säkert och effektivt sätt. Vi riktar oss till branscher med höga krav på säkerhet och effektivitet så som private equity, fastighetstransaktioner och affärsjuridik. Sonit Solutions virtuella datarum är skapade för hantering av olika typer av känsliga dokument samt filer och håller därför en mycket hög säkerhetsnivå.',
       parts: [{
         platform: 'Backend',
+        screenshots: [],
         uri: 'http://login.dataroom.se/',
         technologies: ['ASP.NET MVC', 'Refactoring', 'MS SQL Server', 'Entity Framework']
       },
@@ -27,6 +28,7 @@ const App = ({}) => {
       parts: [
       {
         platform: 'Backend',
+        screenshots: [],
         technologies: ['ASP.NET MVC', 'Refactoring', 'MySQL', 'MS SQL Server', 'EntityFramework']
       }]
     },{
@@ -35,6 +37,7 @@ const App = ({}) => {
       description: 'XendApp is a service letting you send multiple content type messages to devices. A device could for example be a phone or tablet. The messages can be sent from this web site or through our programming interface. What we have done is to combine the best features of email and SMS in a free package.',
       parts: [{
         platform: 'Backend',
+        screenshots: [],
         uri: 'http://www.xendapp.com/',
         technologies: ['ASP.NET', 'Design', 'MS SQL Server', 'ADO.NET', 'PushSharp']
       },
@@ -51,6 +54,7 @@ const App = ({}) => {
       description: '«Азбука» - крупнейшая в России платформа агрегации электронных учебников и дополнительного образовательного контента с собственной DRM-технологией. Концепция «Азбуки» направлена на обеспечение доступности качественного образования независимо от места жительства, социального и материального положения семей обучающихся, самих обучающихся и состояния их здоровья. Приложение "Азбука Про" является инструментом для чтения электронных учебников, работы с заметками, комментариями, работы с внешними образовательными ресурсами.',
       parts: [{
         platform: 'Shared',
+        screenshots: [],
         technologies: ['Xamarin', 'MVVMCross', 'Design', 'Encrypted content', 'Decryption on fly', 'EPuB reading', 'EPuB MediaOverlay', 'HTTP Media Server', 'Chat', 'OAuth2', 'REST', 'SQLite']
       },
       {
@@ -73,6 +77,7 @@ const App = ({}) => {
       description: 'A-Store Reader is an application to access any kind of content received for your A-Store account. You can work with interactive books, view movies, listen to audio books or music using this app in a completely safe and convenient way. More details about A-Store on our web site: a-store.io.',
       parts: [{
         platform: 'Shared',
+        screenshots: [],
         technologies: ['Xamarin', 'MVVMCross', 'Encrypted content', 'Decryption on fly', 'EPuB reading', 'EPuB MediaOverlay', 'HTTP Media Server', 'Chat', 'OAuth2', 'REST', 'SQLite'],
       },
       {
@@ -100,12 +105,13 @@ const App = ({}) => {
       description: 'Мобильное приложение Sputnik Auto Mobile позволяет собственнику транспорта всегда держать под контролем свои транспортные активы, строить отчёты и использовать полный функционал программы. Водитель одним нажатием кнопки может превратить свой телефон в мобильный трекер и передавать данные по своему автомобилю диспетчерам, обмениваться сообщениями и двигаться по заданному маршруту.',
       parts: [{
         platform: 'Shared',
+        screenshots: [],
         technologies: ['Xamarin', 'MVVMCross', 'Design', 'TCPSocket', 'Chat', 'GPS tracking', 'Push notifications', 'WCF', 'Battery monitoring', 'SQLite'],
       },
       {
         platform: 'Android',
         uri: 'https://play.google.com/store/apps/details?id=com.aggregion.client&hl=ru',
-        screenshots: ['sputnikAuto_Android_0.jpg', 'sputnikAuto_Android_1.jpg', 'sputnikAuto_Android_2.jpg', 'sputnikAuto_Android_3.jpg', 'sputnikAuto_Android_4.jpg'],
+        screenshots: ['sputnikAuto_Android_0.jpg', 'sputnikAuto_Android_1.jpg', 'sputnikAuto_Android_2.jpg', 'sputnikAuto_Android_3.jpg'],
         technologies: ['GPS tracking', 'UI layout', 'Google maps', 'Background service', 'Cell info', 'User guide', 'Refactoring'],
       },
       {
