@@ -1,13 +1,10 @@
 import * as React from 'react';
-import { Media } from '../../../node_modules/react-bootstrap';
+import { Media, Grid, Row, Col } from '../../../node_modules/react-bootstrap';
 import IProject from '../../models/project';
 import ProjectLogoComponent from '../projectLogo';
-import ProjectScreenshotsComponent from '../projectScreenshots';
+import ProjectPartComponent from '../projectPart';
 
 const ProjectComponent = (model: IProject) => {
-    var partsScreenshots = model.parts
-    .map(part => part.screenshots);
-
     return (
         <div className="spacing-l">
             <Media>
@@ -18,7 +15,11 @@ const ProjectComponent = (model: IProject) => {
                     <p>{model.description}</p>
                 </Media.Body>
             </Media>
-            {partsScreenshots.map(screenshots => <ProjectScreenshotsComponent paths={screenshots} />)}
+            <Grid>
+                <Row>
+                    {model.parts.map(part => <Col xs={6} md={4}><ProjectPartComponent {...part} /></Col> )}
+                </Row>
+            </Grid>
         </div>
     );
 };

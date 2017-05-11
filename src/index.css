@@ -4,6 +4,11 @@ body {
   font-family: sans-serif;
 }
 
+.label {
+  display: inline-block;
+  margin: 2px;  
+}
+
 .spacing-l {
     margin: 16px;
 }

@@ -31,7 +31,8 @@ const App = ({}) => {
         screenshots: [],
         technologies: ['ASP.NET MVC', 'Refactoring', 'MySQL', 'MS SQL Server', 'EntityFramework']
       }]
-    },{
+    },
+    {
       title: 'Xendapp',
       logo: 'xendApp.png',
       description: 'XendApp is a service letting you send multiple content type messages to devices. A device could for example be a phone or tablet. The messages can be sent from this web site or through our programming interface. What we have done is to combine the best features of email and SMS in a free package.',
