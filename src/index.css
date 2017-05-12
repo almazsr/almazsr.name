@@ -9,8 +9,19 @@ body {
   margin: 2px;  
 }
 
-.spacing-l {
-    margin: 16px;
+.thumbnail {
+    border: none;
+    padding: 0;
+}
+
+.spacing-lv {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.spacing-xlv {
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 .carousel-indicators li {
@@ -20,6 +31,10 @@ body {
 
 .carousel-indicators .active {
   background-color: #444;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
 
 .card {

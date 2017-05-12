@@ -6,18 +6,20 @@ import ProjectPartComponent from '../projectPart';
 
 const ProjectComponent = (model: IProject) => {
     return (
-        <div className="spacing-l">
+        <div className="spacing-xlv">
             <Media>
-                <Media.Left>
+                <Media.Left align="middle">
                     <ProjectLogoComponent path={model.logo} />
                 </Media.Left>
                 <Media.Body>
+                    <Media.Heading><h2>{model.title}</h2></Media.Heading>
                     <p>{model.description}</p>
                 </Media.Body>
             </Media>
             <Grid>
                 <Row>
-                    {model.parts.map(part => <Col xs={6} md={4}><ProjectPartComponent {...part} /></Col> )}
+                    {model.parts
+                    .map(part => <Col xs={12} md={6}><ProjectPartComponent {...part} /></Col> )}
                 </Row>
             </Grid>
         </div>
