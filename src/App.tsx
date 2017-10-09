@@ -10,14 +10,14 @@ const App = ({}) => {
       description: 'Sonit Solutions virtuella datarum gör det möjligt för ert företag att dela känslig information mellan flera parter på ett säkert och effektivt sätt. Vi riktar oss till branscher med höga krav på säkerhet och effektivitet så som private equity, fastighetstransaktioner och affärsjuridik. Sonit Solutions virtuella datarum är skapade för hantering av olika typer av känsliga dokument samt filer och håller därför en mycket hög säkerhetsnivå.',
       parts: [{
         platform: 'Backend',
-        screenshots: ['backend.jpeg'],
+        screenshots: ['backend.jpg'],
         uri: 'http://login.dataroom.se/',
         technologies: ['ASP.NET MVC', 'Refactoring', 'MS SQL Server', 'Entity Framework']
       },
       {
         platform: 'Frontend',
         uri: 'http://login.dataroom.se/',
-        screenshots: ['dataroom_Web_0.png', 'dataroom_Web_1.png'],
+        screenshots: ['dataroom_Web_0.jpg', 'dataroom_Web_1.jpg'],
         technologies: ['ASP.NET Razor', 'KendoUI', 'jQuery', 'AJAX']
       }]
     },
@@ -29,7 +29,7 @@ const App = ({}) => {
       {
         platform: 'Backend',
         uri: '#',
-        screenshots: ['backend.jpeg'],
+        screenshots: ['backend.jpg'],
         technologies: ['ASP.NET MVC', 'Refactoring', 'MySQL', 'MS SQL Server', 'EntityFramework']
       }]
     },
@@ -39,14 +39,14 @@ const App = ({}) => {
       description: 'XendApp is a service letting you send multiple content type messages to devices. A device could for example be a phone or tablet. The messages can be sent from this web site or through our programming interface. What we have done is to combine the best features of email and SMS in a free package.',
       parts: [{
         platform: 'Backend',
-        screenshots: ['backend.jpeg'],
+        screenshots: ['backend.jpg'],
         uri: 'http://www.xendapp.com/',
         technologies: ['ASP.NET', 'Design', 'MS SQL Server', 'ADO.NET', 'PushSharp']
       },
       {
         platform: 'Frontend',
         uri: 'http://www.xendapp.com/',
-        screenshots: ['xendApp_Web_0.png', 'xendApp_Web_1.png', 'xendApp_Web_2.png'],
+        screenshots: ['xendApp_Web_0.jpg', 'xendApp_Web_1.jpg', 'xendApp_Web_2.jpg'],
         technologies: ['ASP.NET WebForm', 'jQuery', 'AJAX']
       }]
     },
@@ -70,7 +70,7 @@ const App = ({}) => {
         platform: 'iOS',
         uri: 'https://itunes.apple.com/ru/app/%D0%B0%D0%B7%D0%B1%D1%83%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE/id1017335773?mt=8',
         description: '',
-        screenshots: ['azbukaPro_iOS_0.jpeg'],
+        screenshots: ['azbukaPro_iOS_0.jpg'],
         technologies: ['Video playing', 'Audio playing', 'Audio recording', 'HTML rendering', 'PDF reading', 'PDF rendering', 'Working in background', 'NSURLSessionDownloadTask']
       }]
     },
@@ -93,13 +93,13 @@ const App = ({}) => {
       {
         platform: 'iOS',
         uri: 'https://itunes.apple.com/ru/app/a-store-reader/id1002878916?mt=8',
-        screenshots: ['aStoreReader_iOS_0.jpeg'],
+        screenshots: ['aStoreReader_iOS_0.jpg'],
         technologies: ['Video playing', 'Audio playing', 'Audio recording', 'HTML rendering', 'PDF reading', 'PDF rendering', 'Working in background', 'NSURLSessionDownloadTask']
       },
       {
         platform: 'MacOS',
         uri: 'https://itunes.apple.com/ru/app/a-store-reader/id1041905062?l=en&mt=12',
-        screenshots: ['aStoreReader_MacOS_0.jpeg', 'aStoreReader_MacOS_1.jpeg'],
+        screenshots: ['aStoreReader_MacOS_0.jpg', 'aStoreReader_MacOS_1.jpg'],
         technologies: ['Video playing', 'Audio playing', 'HTML rendering', 'PDF reading']
       }]
     },
@@ -122,7 +122,7 @@ const App = ({}) => {
       {
         platform: 'iOS',
         uri: 'https://itunes.apple.com/ru/app/a-store-reader/id1002878916?mt=8',
-        screenshots: ['sputnikAuto_iOS_0.jpeg', 'sputnikAuto_iOS_1.jpeg', 'sputnikAuto_iOS_2.jpeg', 'sputnikAuto_iOS_3.jpeg'],
+        screenshots: ['sputnikAuto_iOS_0.jpg', 'sputnikAuto_iOS_1.jpg', 'sputnikAuto_iOS_2.jpg', 'sputnikAuto_iOS_3.jpg'],
         technologies: ['Background location', 'UI layout', 'Google maps'],
       }]
     },
@@ -134,7 +134,7 @@ const App = ({}) => {
         platform: 'iOS',
         uri: 'https://itunes.apple.com/ru/app/a-store-reader/id1002878916?mt=8',
         technologies: ['Xamarin', 'MVVMCross', 'Design', 'QR Code scanning', 'Camera access', 'SQLite'],
-        screenshots: ['digitalMosaic_iOS_0.jpeg', 'digitalMosaic_iOS_1.jpeg'],
+        screenshots: ['digitalMosaic_iOS_0.jpg', 'digitalMosaic_iOS_1.jpg'],
       }]
     },
     {
@@ -145,7 +145,7 @@ const App = ({}) => {
         platform: 'Windows',
         uri: 'http://bk-gramma.ru/',
         technologies: ['.NET', 'WPF', 'Design', 'Windows XP Support', 'HTTP Media Server', 'Encrypted content', 'Video playing', 'PDF rendering', 'UI layout', 'UI styling'],
-        screenshots: ['bukvogramma_Windows_0.png', 'bukvogramma_Windows_1.png', 'bukvogramma_Windows_2.png', 'bukvogramma_Windows_3.png'],
+        screenshots: ['bukvogramma_Windows_0.jpg', 'bukvogramma_Windows_1.jpg', 'bukvogramma_Windows_2.jpg', 'bukvogramma_Windows_3.jpg'],
       }]
     }];
     return (

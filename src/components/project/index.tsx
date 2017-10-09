@@ -18,7 +18,7 @@ const ProjectComponent = (model: IProject) => {
             </Media>
             <Grid>
                 <Row>
-                    {model.parts
+                    {model.parts.filter(p => p.platform !== 'Shared' && p.platform !== 'Backend')
                     .map(part => <Col xs={12} md={6}><ProjectPartComponent {...part} /></Col> )}
                 </Row>
             </Grid>
